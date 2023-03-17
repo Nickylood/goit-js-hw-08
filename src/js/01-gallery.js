@@ -22,7 +22,7 @@ alt="${description}"
 
 galleryMarkUp.insertAdjacentHTML('beforeend', galleryEl);
 
-new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery .gallery__link', {
     captionsData: 'alt',
     captionDelay: 250,
  });
